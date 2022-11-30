@@ -1,17 +1,46 @@
-body {background-color:rgb(210, 179, 139);
-    font-family: Arial, Helvetica, sans-serif;
-
-    }
-.assignment{
-    display:flex ;
-    padding: 10px;
-}
-.assignment img{
-    width: 200px;
-    padding: -10px;
+h1 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0%;
+    right: 40%;
 }
 
 
-    h1 {
-        color: rgb(3, 3, 109)
-    }
+body 
+{
+    background-image: url("images/Background.jpeg");
+}
+
+
+
+
+  h2
+  {
+color: white;
+font-size: 1vw;
+  }
+  h3
+  {
+    color: white;
+    font-size: 1vw;
+  }
+  h4
+  {
+color: white;
+font-size: 1vw;
+  }
+  h5
+  {
+    color: white;
+    font-size: 1vw;
+  }
+  h6
+  {
+    color: white;
+    font-size: 1vw;
+  }
+  h7
+  {
+    color: white;
+    font-size: 1vw;
+  }
