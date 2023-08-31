@@ -1,12 +1,12 @@
 body{
-    background-color: lightgray;
+    background-color: #E49989;
     font-family:Arial, Helvetica, sans-serif ;
 }
 a{
 text-decoration: none;
 }
 #content{
-    background-color: aliceblue;
+    background-color: #A797D3;
     width: 75%;
     margin: auto;
     padding: 7px;
