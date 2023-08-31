@@ -5,3 +5,9 @@ body{
 a{
 text-decoration: none;
 }
+#content{
+    background-color: aliceblue;
+    width: 75%;
+    margin: auto;
+    padding: 7px;
+}
