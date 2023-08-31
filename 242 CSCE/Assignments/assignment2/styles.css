@@ -1,0 +1,38 @@
+body{
+    background-color: #e9af50;
+}
+h1{
+    color: #e9af50;
+    text-align: center;
+}
+h2{
+    color: #e9af50;
+    text-align: center;
+}
+p{
+    color: #e9af50;
+}
+#content
+{
+    background-color: #b054b6;
+    width: 75%;
+    margin: auto;
+    padding: 7px;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: #e9af50;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+    color: #e9af50;
+    text-align: center;
+}
+th{
+    border: 1px #e9af50;
+    color: #e9af50;
+    text-align: center;
+}
