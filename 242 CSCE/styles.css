@@ -1,15 +1,16 @@
 body{
-    background-color: #E49989;
+    background-color: teal;
     font-family:Arial, Helvetica, sans-serif ;
 }
 a{
 text-decoration: none;
-color: black;
+color: teal;
 }
 #content{
-    background-color: #A797D3;
+    background-color: navy;
     width: 75%;
     margin: auto;
     padding: 7px;
     border-radius: 7px;
+    color: teal;
 }
