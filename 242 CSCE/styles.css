@@ -1,16 +1,44 @@
 body{
-    background-color: teal;
+    background-color: white;
     font-family:Arial, Helvetica, sans-serif ;
+}
+h1{
+    padding-left: 5px;
+}
+#main-head{
+    text-align: center;
+}
+#second-head{
+    text-align: center;
 }
 a{
 text-decoration: none;
-color: teal;
+color: navy;
+}
+.flex-container{
+    text-align: center;
 }
 #content{
-    background-color: navy;
+    background-color: teal;
     width: 75%;
     margin: auto;
     padding: 7px;
     border-radius: 7px;
-    color: teal;
+    color: navy;
+}
+.col1of3{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: darkolivegreen ;
+}
+@media (min-width: 900px){
+    .flex-container{
+        display: flex;
+    }
+    .col1of3{
+        flex:1;
+    }
+
+    
 }
