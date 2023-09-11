@@ -1,0 +1,131 @@
+/* Structure */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main-header{
+    margin: auto;
+    width: 100;
+    background-color: black;
+    padding: 5px;
+}
+
+
+#header-nav{
+    margin: auto;
+    width: 100%;
+    background-color: #770000;
+    padding: 5px;
+}
+#body-header{
+    margin: auto;
+    width: 50%;
+    background-color: #770000;
+    padding: 5px;
+}
+
+#main-body{
+    margin: auto;
+    width: 100%;
+    background-color: #770000;
+    padding: 5px;
+}
+#main-body-2{
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    padding: 5px;
+}
+
+#main-footer{
+    margin: auto;
+    width: 100%;
+    background-color: #770000;
+    padding: 5px;
+}
+
+/* Nav */
+
+.h-nav ul{
+    padding-left: 0%;
+}
+.h-nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.h-nav a{
+    text-decoration: none;
+}
+
+/* Tpyography */
+
+#main-header{
+    color: white;
+}
+
+#header-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#body-header{
+    text-align: center;
+    color: white;
+}
+#main-body{
+    color: white;
+}
+#main-body-2{
+    color: white;
+}
+#main-footer, #main-footer a{
+    color: white;
+}
+
+#main-footer ul{
+    padding-left: 1%;
+}
+
+#main-footer a{
+    text-decoration: none;
+}
+
+#main-footer li{
+    list-style-type: none;
+}
+
+/* Larger Res */
+
+@media only screen and (min-width: 750px){
+    .h-nav ul, .flex-container{
+        display: flex;
+    }
+}
+
+.flex-container{
+    justify-content: space-between;
+}
+
+#user-nav{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+}
+
+#logo{
+    position: relative;
+    left: 5%;
+}
+
+#header-nav ul{
+    justify-content: center;
+}
+
+#body-header{
+    position: relative;
+    right: 20%;
+}
+#main-body-3-pic{
+    position: relative;
+    left: 10%;
+}
