@@ -37,7 +37,10 @@ color: navy;
         display: flex;
     }
     .col1of3{
-        flex:1;
+        max-width: 31%;
+    }
+    .assignments{
+        flex-wrap: wrap;
     }
 
     
