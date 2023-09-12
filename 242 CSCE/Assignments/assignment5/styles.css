@@ -29,7 +29,7 @@ body{
     background-color: #770000;
     padding: 5px;
 }
-#main-body-2{
+#main-body2{
     margin: auto;
     width: 100%;
     background-color: black;
@@ -75,7 +75,7 @@ body{
 #main-body{
     color: white;
 }
-#main-body-2{
+#main-body2{
     color: white;
 }
 #main-footer, #main-footer a{
@@ -125,7 +125,7 @@ body{
     position: relative;
     right: 20%;
 }
-#main-body-3-pic{
+#main-body3-pic{
     position: relative;
     left: 10%;
 }
