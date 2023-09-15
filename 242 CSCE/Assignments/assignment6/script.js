@@ -14,7 +14,7 @@ const productName = () => {
     const messageP = document.getElementById("product");
     messageP.innerHTML = productName;
 
-    const comment = document.getElementById("txt-rating").value;
+    const comment = document.getElementById("txt-comment").value;
     const messageB = document.getElementById("comment");
     messageB.innerHTML = comment;
 
