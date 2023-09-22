@@ -1,0 +1,100 @@
+/* Structure */
+body{
+    background-color: blanchedalmond;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#name{
+    text-align: center;
+}
+
+#exercise1{
+    display: inline-block;
+    text-align: right;
+}
+
+#exercise1 li{
+    list-style-type: none;
+    padding: 3px;
+}
+
+#section1, #section2{
+    background-color: salmon;
+}
+.container{
+    display: flex;
+}
+#age-sort{
+    background-color:white;
+}
+#funds-label{
+    padding-left: 20px;
+}
+.hide{
+    display: none;
+}
+#thermometer{
+    width: 100px;
+    height: 400px;
+    margin: auto;
+    background: linear-gradient(0deg, red var(--percent), white var(--percent) 100%);
+}
+
+:root{
+    --percent:0%;
+}
+
+
+
+/* Navigation */
+#main-nav ul{
+    padding-left: 0%;
+    list-style-type: none;
+}
+
+#main-nav li{
+    background-color: salmon;
+    padding: 10px;
+    margin: 2px 0;
+    text-align: center;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+    border-bottom: 3px solid transparent;
+}
+
+/* Ham Menu */
+#nav-toggle div{
+    width: 35px;
+    height: 5px;
+    background-color: salmon;
+    margin: 6px;
+}
+
+/* Typography */
+
+#main-nav-items li:hover{
+    padding-bottom: 7px;
+    border-bottom: 3px solid black;
+    
+}
+
+/* Larger Res */
+@media(min-width: 900px){
+    #main-nav-items{
+        display: flex;
+    }
+    #main-nav-items li{
+        flex:1
+    }
+    #section1, #section2{
+        margin: 0% 25% 25% 25%;
+    }
+    #nav-toggle{
+        display: none;
+    }
+   
+}
