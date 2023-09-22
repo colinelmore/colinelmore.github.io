@@ -48,12 +48,6 @@ const ageSort = () =>{
             }
         }
     }
-   /* 
-    sortDiv.innerHTML = 
-    name1 + age1 + "<br>" 
-    +name2 + age2 + "<br>" 
-    +name3 + age3 + "show";   
-   */ 
 };
 
 const fundsLevel = () => {
