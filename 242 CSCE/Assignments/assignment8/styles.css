@@ -1,0 +1,51 @@
+body
+{
+    background-color: black;
+    display: flex;
+}
+#main-h{
+    text-align: center;
+}
+.col1of2{
+    background-color: royalblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    flex: 1;
+}
+#funds-label{
+    padding-left: 20px;
+}
+.hide{
+    display: none;
+}
+#thermometer{
+    width: 100px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+.red{
+    background-color: red;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    transition: height 0.5s ease-in-out;
+}
+
+:root{
+    --percent:0%;
+}
+@keyframes fill {
+   0%{
+        height:0;
+    }
+    100%{
+        height: var(--percent);
+        background: linear-gradient(0deg, red var(--percent), white var(--percent) 100%);
+    }
+}
+
