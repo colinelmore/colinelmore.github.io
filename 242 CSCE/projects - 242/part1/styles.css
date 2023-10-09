@@ -1,0 +1,111 @@
+/* Body Main*/
+#main-head{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#main-nav li {
+    display: none;
+}
+#main-nav a{
+    text-decoration: none;
+    color: black;
+}
+#main-nav a:hover{
+    text-decoration: underline;
+}
+
+#small-nav a{
+    text-decoration: none;
+    color: black;
+}
+#small-nav a:hover{
+    text-decoration: underline;
+}
+
+
+#pictures li{
+    display: none;
+}
+
+#hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#intro{
+    text-align:center;
+    padding-top: 2px;
+}
+#small-nav{
+    list-style-type: none;
+}
+#small-nav li{
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.hidden{
+    display: none;
+}
+#main-p{
+    padding: 20px;
+}
+#small-pic{
+    padding-left: 75px;
+    padding-top: 15px;
+}
+
+/* Lift List*/
+#lifts{
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+}
+#add-lift{
+    margin-left: 150px;
+}
+#lift-p{
+    padding-left: 20px;
+}
+
+
+/*Larger Res Main*/
+@media (min-width: 900px){
+    #pictures{
+        padding-top: 10px;
+    }
+    #main-nav{
+        text-decoration: none;
+        text-align: right;
+        
+    }
+    #main-nav li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+    }
+    #pictures{
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-left: 1px;
+    }
+    #pictures li{
+        display: inline;
+        padding: 40px;
+    }
+    #hamburger div{
+        display: none;
+    }
+    #small-nav{
+        display: none;
+    }
+    #small-pic{
+        display: none;
+    }
+}
