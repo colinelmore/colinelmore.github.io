@@ -1,5 +1,6 @@
 /* Body Main*/
 body{
+    background-color: darkslategrey; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -121,4 +122,10 @@ body{
 
     
 }
+}
+/* Medium Width */ 
+@media (min-width: 920px, max-width: 1200px){
+    #pictures{
+        flex: 4;
+    }
 }
