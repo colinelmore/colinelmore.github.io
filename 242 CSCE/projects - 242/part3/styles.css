@@ -51,10 +51,15 @@ body{
     color: burlywood;
 }
 #small-nav li{
-    display: inline;
-    text-align: center;
+    text-align: left;
     padding: 10px;
     padding-left: 15px;
+
+    /* center algined -
+    display: inline;
+    text-align: center;
+    */
+
 }
 
 .hidden{
@@ -75,7 +80,21 @@ body{
     margin-bottom: 25px;
     margin-top: 15px;
 }
+#save-lift{
+    margin-left: 7px;
+}
 
+/* More Page */
+#more-body{
+    text-align: center;
+}
+#map{
+    text-align: center;
+}
+#main-form{
+    text-align: center;
+    display: inline;
+}
 
 /*Larger Res Main*/
 @media (min-width: 900px){
