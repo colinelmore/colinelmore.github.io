@@ -32,6 +32,9 @@ color: navy;
     border-radius: 2px;
     background-color: darkolivegreen ;
 }
+#pic1{
+    max-width: 90%; /* Check this */
+}
 @media (min-width: 900px){
     .flex-container{
         display: flex;
