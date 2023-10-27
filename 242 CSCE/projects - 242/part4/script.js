@@ -7,8 +7,10 @@ const showAlert = () => {
     alert("Lift added!");
 }
 
+
 const showEmailResult = async (e) => {
     e.preventDefault();
+
     const result = document.getElementById("result");
     let response = await getEmailResult();
     if(response.status == 200) {
@@ -16,12 +18,12 @@ const showEmailResult = async (e) => {
     } else {
         result.innerHTML = "Email was unsuccessful";
     }
-};
+}
 
 const getEmailResult = async (e) => {
     const form = document.getElementById("contact-form");
     const formData = new FormData(form);
-    const object = pObject.fromEntries(formData);
+    const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     const result = document.getElementById("result");
     result.innerHTML = "please wait...";
@@ -45,6 +47,6 @@ const getEmailResult = async (e) => {
 window.onload = () => {
     document.getElementById("hamburger").onclick = toggleHam;
     document.getElementById("small-nav").classList.add("hidden");
-    document.getElementById("add-lift").onclick = showAlert;
+    //document.getElementById("add-lift").onclick = showAlert;
     document.getElementById("contact-form").onsubmit = showEmailResult;
 };
