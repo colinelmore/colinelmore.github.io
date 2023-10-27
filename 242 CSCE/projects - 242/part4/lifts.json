@@ -34,5 +34,11 @@
         "description": "Calf raises are a simple yet effective exercise for strengthening the calf muscles, located in the back of the lower leg. They are commonly done by standing with your feet flat on the ground and then lifting your heels off the floor, going up on your toes. You can perform calf raises with both feet simultaneously or with one foot at a time for added balance and stability. This exercise is valuable for improving calf strength and stability, which can be beneficial for various activities, including walking, running, and sports that require powerful lower leg muscles.",
         "img": "Calf Raises .jpeg",
         "category":"legs"
+    },
+    {
+        "name": "Lat-Pulldowns",
+        "description": "During lat pull-downs, the latissimus dorsi muscles, commonly known as the lats, are the primary muscles engaged. These large muscles in the upper back are responsible for the pulling motion as you lower the bar or handle towards your chest. Additionally, the muscles of the shoulders, including the rear deltoids and trapezius, assist in the movement, providing stability and support. The biceps also contribute to the pulling action as secondary muscles. Lat pull-downs are effective for building a strong and well-defined back, improving shoulder strength and stability, and enhancing overall upper body muscular development. They are a fundamental exercise for anyone looking to target their back and improve their posture and upper body strength.",
+        "img" : "lat pulldowns.jpeg",
+        "category":"back"
     }
 ]

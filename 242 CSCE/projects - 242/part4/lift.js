@@ -1,36 +1,34 @@
 const getLifts = async () => {
-    const json = "lifts.json";
+    const url = "https://colinelmore.github.io/242%20CSCE/projects%20-%20242/part4/lifts.json";
 
     try {
-      const response = await fetch(json);
+      const response = await fetch(url);
       return await response.json();
     } catch (error) {
       console.log(error);
     }
   };
 
-const showLift = async() => {
-    let lift = await getLifts();
+const showLifts = async() => {
+    let lifts = await getLifts();
     let liftsSection = document.getElementById("lift-section");
-
-    lifts.name.forEach((lift) =>
-    cocktailsSection.append(getLiftItem(lift))
-    );
+    lifts.forEach((lift) => liftsSection.append(getLiftItem(lift)));
 };
 
-const getLiftlItem = (lift) => {
+const getLiftItem = (lift) => {
     const liftSection = document.createElement("section");
     liftSection.classList.add("lift");
+    liftSection.classList.add(lift.category);
   
     console.log(lift);
   
     const h5 = document.createElement("h5");
-    h5.innerText = lifts.name;
+    h5.innerText = lift.name;
     const p = document.createElement("p")
-    p.innerText = lifts.description;
-    cocktailSection.append(h5);
-    cocktailSection.append(p);
+    p.innerText = lift.description;
+    liftSection.append(h5);
+    liftSection.append(p);
     return liftSection;
   };
 
-showLift();
+showLifts();
