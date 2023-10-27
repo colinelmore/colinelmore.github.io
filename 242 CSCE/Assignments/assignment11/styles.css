@@ -1,0 +1,48 @@
+html{
+    background-color: black;
+    margin: 5px;
+}
+body{
+    background-color: darkcyan;
+}
+.p-flex {
+    margin: 0;
+    padding-left: 5px;
+    list-style-type: none;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.p-flex ul{
+    list-style-type: none;
+}
+
+.img-flexing {
+    display: block;
+    
+}
+
+
+.img-sizer {
+    width: 200px;
+    height: 200px;;
+}
+
+.img-sizer:hover {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 10;
+}
+
+.section {
+    display: flex;
+    background-color:rgb(111, 225, 225);
+    border: dotted black;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+
+}
