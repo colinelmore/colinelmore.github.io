@@ -19,6 +19,9 @@ const getLiftItem = (lift) => {
     const liftSection = document.createElement("section");
     liftSection.classList.add("lift");
     liftSection.classList.add(lift.category);
+
+    let img = document.createElement("img");
+    img.src = "projects - 242/part4/pictures/" + lift.img;
   
     console.log(lift);
   
@@ -26,9 +29,28 @@ const getLiftItem = (lift) => {
     h5.innerText = lift.name;
     const p = document.createElement("p")
     p.innerText = lift.description;
+    const button = document.createElement("button");
+    button.innerHTML = "Add Lift"
+    liftSection.append(img);
     liftSection.append(h5);
     liftSection.append(p);
+    liftSection.append(button);
     return liftSection;
+
+    
+
   };
 
+
 showLifts();
+
+const showLegs = () => {
+  document.getElementsByClassName("legs").classList.toggle("hidden");
+  console.log("works");
+};
+
+window.onload = () => {
+  document.getElementById("show-legs").onclick = showLegs;
+  //document.getElementById("lift-section").classList.add("hidden");
+}
+

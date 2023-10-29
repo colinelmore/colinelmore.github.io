@@ -1,6 +1,5 @@
 const toggleHam = () => {
     document.getElementById("small-nav").classList.toggle("hidden");
-    console.log("works");
 };
 
 const showAlert = () => {
@@ -48,5 +47,5 @@ window.onload = () => {
     document.getElementById("hamburger").onclick = toggleHam;
     document.getElementById("small-nav").classList.add("hidden");
     //document.getElementById("add-lift").onclick = showAlert;
-    document.getElementById("contact-form").onsubmit = showEmailResult;
+    //document.getElementById("contact-form").onsubmit = showEmailResult;
 };
