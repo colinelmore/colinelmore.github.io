@@ -10,12 +10,6 @@ body{
     padding-top: 10px;
 }
 
-.legs {background:red;}
-.back{background-color: whitesmoke;}
-.arms{background-color: green;}
-.core{background-color: blue;}
-.chest{background-color: purple;}
-
 #main-nav li {
     display: none;
 }

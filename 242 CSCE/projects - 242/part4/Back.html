@@ -2,6 +2,7 @@
 <html>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="javaScript/back.js"></script>
     <head>
         <ul id="main-nav">
             <li><a href="index.html">Home | </a></li>
@@ -31,8 +32,31 @@
             <li><a href="More.html">More</a></li>
     </ul>
     <body>
+        
+        <section id="lift-section"></section>
+
+        <div id="new-lift">
+            <h2>Add a Lift of your choice!</h2>
+            <form action="add-lift" method="post">
+           <p>
+               <label for="liftName">Name of Lift:</label>
+               <input type="text" id="liftName" name="liftName" required><br><br>
+           </p>
+           <p>
+               <label for="description">Description:</label><br>
+               <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+           </p>
+           <p>
+               <label for="picture">Upload a Picture:</label>
+               <input type="file" id="picture" name="picture" accept="image/*" required><br><br>
+           </p>
+               <input type="submit" value="Submit">
+           </form>
+       </div>
+ <!-- 
         <section>
-            <!-- 
+            
+           
          <div id="lifts">
             <div id="lift-button">
              <img src="pictures/lat pulldowns.jpeg" alt="">
