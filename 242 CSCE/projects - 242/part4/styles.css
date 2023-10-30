@@ -21,6 +21,10 @@ body{
     text-decoration: underline;
 }
 
+#new-lift{
+    text-align: center;
+}
+
 #small-nav a{
     text-decoration: none;
     color: burlywood;

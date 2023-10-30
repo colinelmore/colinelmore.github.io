@@ -44,17 +44,5 @@ const getLiftItem = (lift) => {
 
 showLifts();
 
-const showLegs = () => {
-  //document.getElementsByClassName("legs").classList.toggle("hidden");
-  
-};
 
-//document.getElementById("show-legs").onclick = showLegs;
-
-
-window.onload = () => {
- //document.getElementById("legs").classList.add("hidden");
-  //document.getElementById("show-legs").onclick = showLegs;
-  console.log("works");
-}
 

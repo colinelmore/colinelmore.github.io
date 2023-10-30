@@ -46,6 +46,5 @@ const getEmailResult = async (e) => {
 window.onload = () => {
     document.getElementById("hamburger").onclick = toggleHam;
     document.getElementById("small-nav").classList.add("hidden");
-    //document.getElementById("add-lift").onclick = showAlert;
-    //document.getElementById("contact-form").onsubmit = showEmailResult;
+    document.getElementById("contact-form").onsubmit = showEmailResult;
 };
