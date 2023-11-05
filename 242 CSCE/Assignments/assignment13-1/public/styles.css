@@ -1,0 +1,16 @@
+html{
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+    background-color: azure;
+}
+body{
+    text-align: center;
+}
+section{
+    display: inline-block;
+    margin: 50px;
+    text-align:center;
+    background-color: azure;
+}
