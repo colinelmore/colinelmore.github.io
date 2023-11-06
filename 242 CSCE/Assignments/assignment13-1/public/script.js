@@ -1,5 +1,5 @@
 const showSports = async () => {
-    let response = await fetch("http://localhost:4000/api/sports");
+    let response = await fetch("https://assignment13-9xi0.onrender.com/api/sports");
     let sportsJSON = await response.json();
     let sportDiv = document.getElementById("sport-div");
 
@@ -22,7 +22,7 @@ const showSports = async () => {
 
         let img = document.createElement("img");
         section.append(img);
-        img.src ="http://localhost:4000/" + sports.img;
+        img.src ="https://assignment13-9xi0.onrender.com/api/sports/" + sports.img;
 
         let colors = document.createElement("p");
         section.append(colors);
