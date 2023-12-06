@@ -8,7 +8,7 @@
     {
         "name": "Single Arm Dumbbell Row",
         "description": "A single-arm dumbbell row is a strength training exercise used to target the muscles in the upper back, particularly the lats (latissimus dorsi), rhomboids, and rear deltoids. To perform this exercise, you stand with one knee and one hand on a bench while holding a dumbbell in the opposite hand. With your back parallelto the floor, you pull the dumbbell towards your hip, engaging your back muscles. Single-arm dumbbell rows help improve back strength and posture while also enhancing balance and stability. It's a versatile exercise that can be incorporated into upper body workouts for a well-rounded strength training routine.",
-        "img": "dumbbell rows.jpeg",
+        "img": "dumbbell-rows.jpeg",
         "category": "back"
     },
     {
@@ -20,7 +20,7 @@
     {
         "name":"Incline Dumbbell Row",
         "description":"The incline dumbbell row is a variation of the traditional bent-over row that specifically targets the upper back muscles and the rear deltoids. To perform this exercise, you sit on an inclined bench with your chest resting against the incline. With a dumbbell in each hand, you allow your arms to hang straight down, and then you row the weights towards your hips or lower ribcage while squeezing your shoulder blades together. Incline dumbbell rows are a great choice for adding variety to your back workout routine and are effective for building upper back strength, improving posture, and enhancing the definition of the rear deltoids. Proper form and control are crucial when performing this exercise.",
-        "img":"incline dumbbell rows",
+        "img":"incline-dumbbell-rows",
         "category":"back"
     },
     {
