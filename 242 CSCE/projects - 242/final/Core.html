@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <script src="javaScript/core.js"></script>
+    <head>
+        <ul id="main-nav">
+            <li><a href="index.html">Home | </a></li>
+            <li><a href="Legs.html">Legs | </a></li>
+            <li><a href="Back.html">Back | </a></li>
+            <li><a href="Chest.html">Chest | </a></li>
+            <li><a href="Arms.html">Arms | </a></li>
+            <li><a href="Core.html">Core | </a></li>
+            <li><a href="LiftPlan.html">Lift Plan |</a></li>
+            <li><a href="More.html">More</a></li>
+        </ul>
+        <h1 id="main-head">Core</h1>
+    </head>
+    <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul id="small-nav">
+        <li><a href="index.html">Home</a></li>
+            <li><a href="Legs.html">Legs</a></li>
+            <li><a href="Back.html">Back</a></li>
+            <li><a href="Chest.html">Chest</a></li>
+            <li><a href="Arms.html">Arms</a></li>
+            <li><a href="Core.html">Core</a></li>
+            <li><a href="LiftPlan.html">Lift Plan </a></li>
+            <li><a href="More.html">More</a></li>
+    </ul>
+    <body>
+
+        <section id="lift-section"></section>
+    
+                         <div id="new-lift">
+                            <h2>Add a Lift of your choice!</h2>
+                            <form action="add-lift" method="post">
+                           <p>
+                               <label for="liftName">Name of Lift:</label>
+                               <input type="text" id="liftName" name="liftName" required><br><br>
+                           </p>
+                           <p>
+                               <label for="description">Description:</label><br>
+                               <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+                           </p>
+                           <p>
+                               <label for="picture">Upload a Picture:</label>
+                               <input type="file" id="picture" name="picture" accept="image/*" required><br><br>
+                           </p>
+                               <input type="submit" value="Submit">
+                           </form>
+                       </div>
+                       
+    </body>
+</html>

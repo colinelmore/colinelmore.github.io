@@ -1,0 +1,159 @@
+/* Body Main*/
+body{
+    background-color: darkslategrey; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: burlywood;
+}
+#main-head{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#main-nav li {
+    display: none;
+}
+#main-nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+#main-nav a:hover{
+    text-decoration: underline;
+}
+
+#new-lift{
+    text-align: center;
+}
+
+#small-nav a{
+    text-decoration: none;
+    color: burlywood;
+}
+#small-nav a:hover{
+    text-decoration: underline;
+}
+
+
+#pictures li{
+    display: none;
+}
+
+#hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: burlywood;
+    margin: 6px 0;
+}
+
+#intro{
+    text-align:center;
+    padding-top: 2px;
+}
+#small-nav{
+    list-style-type: none;
+    color: burlywood;
+}
+#small-nav li{
+    text-align: left;
+    padding: 10px;
+    padding-left: 15px;
+
+    /* center algined -
+    display: inline;
+    text-align: center;
+    */
+}
+
+
+.hidden{
+    display: none;
+}
+#main-p{
+    padding: 20px;
+}
+#small-pic{
+    padding-top: 15px;
+}
+
+/* Lift List*/
+#add-lift{
+    margin-bottom: 15px;
+}
+#remove-lift{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+#save-lift{
+    margin-left: 7px;
+}
+
+/* More Page */
+#more-body{
+    text-align: center;
+}
+#map{
+    text-align: center;
+}
+#main-form{
+    text-align: center;
+    display: inline;
+}
+#form{
+    text-align: center;
+}
+
+/*Larger Res Main*/
+@media (min-width: 900px){
+    #pictures{
+        padding-top: 10px;
+    }
+    #main-nav{
+        text-decoration: none;
+        text-align: right;
+        
+    }
+    #main-nav li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+    }
+    #pictures{
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        padding-left: 1px;
+    }
+    #pictures li{
+        display: inline;
+        padding: 40px;
+    }
+    #hamburger div{
+        display: none;
+    }
+    #small-nav{
+        display: none;
+    }
+    #small-pic{
+        display: none;
+    }
+	#lifts{
+        align-items: center;
+        display: flex;
+        padding-left: 100px;
+    }
+    #add-lift{
+        margin-left: 330px;
+    }
+    #lift-p{
+        padding-left: 20px;
+}
+    body{
+        text-align: left;
+    }
+}
+/* Medium Width */ 
+@media (min-width: 920px){
+    #pictures{
+        flex: 4;
+    }
+}
